@@ -17,9 +17,9 @@ auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 
 # Creating the API object while passing in auth information
-api = tweepy.API(auth) 
+api = tweepy.API(auth)
 
-searchQuery = 'bitcoin'  # this is what we're searching for
+searchQuery = 'ini coins'  # this is what we're searching for
 maxTweets = 10000000 # Some arbitrary large number
 tweetsPerQry = 100  # this is the max the API permits
 fName = 'tweets.txt' # We'll store the tweets in a text file.
